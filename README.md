@@ -55,9 +55,10 @@ A.Clone
 
 ![alt clone ](/ImagensGit4/gitclone.png)
 
+
 B.Branch/Commit -m
 
->Na pasta do projeto, abre o terminal do Git bash, inTroduz 'code .', o qual irá abrir o VS Code no projeto. Na tela à esquerda do VS Code, um novo arquivo é criado com o nome de *main.FI*(por exemplo), não versionado, tipo tXt.No terminal Git bash através do 'git status', é possível identificar um *branch Untracked*, não versionado(inclusive no próprio VS Code é possível essa visualização-U-Untracked-ao lado do nome do arquivo), o qual posteriormente será adicionado através do comando 'git add main.FI', após um 'git status' será utilizado, o qual indicará a presença de um *branch versionado* que deverá ser submetido a um commit, através do 'git commit -m', onde poderá ser descrita de forma breve a mensagem da alteração feita. 
+>Na pasta do projeto, abre o terminal do Git bash, introduz 'code .', o qual irá abrir o VS Code no projeto. Na tela à esquerda do VS Code, um novo arquivo é criado com o nome de *main.FI*(por exemplo), não versionado, tipo txt.No terminal Git bash através do 'git status', é possível identificar um *branch Untracked*, não versionado(inclusive no próprio VS Code é possível essa visualização-U-Untracked-ao lado do nome do arquivo), o qual posteriormente será adicionado através do comando 'git add main.FI', após um 'git status' será utilizado, o qual indicará a presença de um *branch versionado* que deverá ser submetido a um commit, através do 'git commit -m', onde poderá ser descrita de forma breve a mensagem da alteração feita. 
 ```
 1.git add
 2.git status
@@ -67,13 +68,14 @@ B.Branch/Commit -m
 6.git push
 
 ```
-O comando 'git status' após o 'git commit' informa ao usuário que não há nada para comitar, logo para a verificação das alterações realizadas é utilizado o 'git log', o qual consta o commit inicial-main.FI- e os subsequentes.Para empurrar todas as modificações do servidor local(ToshibaA305) para o remoto(github.com) o comando 'git push' é utilizado.
+>O comando 'git status' após o 'git commit' informa ao usuário que não há nada para comitar, logo para a verificação das alterações realizadas é utilizado o 'git log', o qual consta o commit inicial-main.FI- e os subsequentes.Para empurrar todas as modificações do servidor local(ToshibaA305) para o remoto(github.com) o comando 'git push' é utilizado.
 
 
 ![alt branch main.FI](/ImagensGit4/branchmainFI.png)
 
 
 ![alt git log](/ImagensGit4/gitlog.png)
+
 
 
 
